@@ -18,8 +18,11 @@ function Stars({ rating }) {
   )
 }
 
-function RestaurantCard({ restaurant }) {
-  const { name, genre, cuisine, address, price_range, visited, rating, notes } = restaurant
+function RestaurantCard({ restaurant, kidsOk, onToggleKids, updatedDate }) {
+  const { name, genre, cuisine, address, price_range, visited, rating, notes, situation, created_date } = restaurant
+
+  const kidsClass = kidsOk === true ? 'kids-yes' : kidsOk === false ? 'kids-no' : 'kids-unknown'
+  const kidsLabel = kidsOk === true ? '子連れ可 ✓' : kidsOk === false ? '子連れ不可 ✗' : '子連れ？'
 
   return (
     <div className={`card ${visited ? 'visited' : 'unvisited'}`}>
@@ -30,6 +33,20 @@ function RestaurantCard({ restaurant }) {
       <h2 className="card-name">{name}</h2>
       <p className="card-cuisine">{cuisine}</p>
       <p className="card-address">📍 {address}</p>
+
+      <div className="situation-row">
+        {situation?.map(s => (
+          <span key={s} className="situation-tag">{s}</span>
+        ))}
+        <button
+          className={`kids-badge ${kidsClass}`}
+          onClick={onToggleKids}
+          title="クリックで変更"
+        >
+          {kidsLabel}
+        </button>
+      </div>
+
       <div className="card-footer">
         {visited ? (
           <div className="rating-row">
@@ -41,7 +58,13 @@ function RestaurantCard({ restaurant }) {
           <span className="unvisited-tag">未訪問</span>
         )}
       </div>
+
       {notes && <p className="card-notes">{notes}</p>}
+
+      <div className="card-dates">
+        <span>入力: {created_date}</span>
+        <span>更新: {updatedDate}</span>
+      </div>
     </div>
   )
 }

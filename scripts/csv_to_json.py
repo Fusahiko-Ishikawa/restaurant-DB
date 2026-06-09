@@ -1,6 +1,7 @@
 import csv
 import json
 import os
+from datetime import date
 
 ROOT = os.path.join(os.path.dirname(__file__), '..')
 INPUT = os.path.join(ROOT, 'data', 'restaurants.csv')
@@ -20,6 +21,10 @@ def main():
                 'visited': row['visited'].lower() == 'true',
                 'rating': float(row['rating']) if row['rating'] else None,
                 'notes': row['notes'],
+                'situation': [s.strip() for s in row['situation'].split('|') if s.strip()],
+                'kids_friendly': None if row['kids_friendly'] == '' else row['kids_friendly'].lower() == 'true',
+                'created_date': row['created_date'].strip() or date.today().strftime('%Y/%m/%d'),
+                'updated_date': row['updated_date'],
             })
 
     os.makedirs(os.path.dirname(OUTPUT), exist_ok=True)
