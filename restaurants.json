@@ -8,7 +8,14 @@
     "price_range": "5000〜",
     "visited": true,
     "rating": 5.0,
-    "notes": "最高の職人技"
+    "notes": "最高の職人技",
+    "situation": [
+      "接待・商談向き",
+      "デート向き"
+    ],
+    "kids_friendly": false,
+    "created_date": "2026/06/09",
+    "updated_date": "2026/06/09"
   },
   {
     "id": 2,
@@ -19,7 +26,13 @@
     "price_range": "〜1000",
     "visited": true,
     "rating": 4.0,
-    "notes": "こだわりのとんこつ"
+    "notes": "こだわりのとんこつ",
+    "situation": [
+      "一人で行きやすい"
+    ],
+    "kids_friendly": false,
+    "created_date": "2026/06/09",
+    "updated_date": "2026/06/09"
   },
   {
     "id": 3,
@@ -30,7 +43,13 @@
     "price_range": "2000〜5000",
     "visited": false,
     "rating": null,
-    "notes": "スタンディングフレンチ"
+    "notes": "スタンディングフレンチ",
+    "situation": [
+      "デート向き"
+    ],
+    "kids_friendly": false,
+    "created_date": "2026/06/09",
+    "updated_date": "2026/06/09"
   },
   {
     "id": 4,
@@ -41,7 +60,13 @@
     "price_range": "2000〜5000",
     "visited": true,
     "rating": 3.5,
-    "notes": "食べ放題でコスパ良好"
+    "notes": "食べ放題でコスパ良好",
+    "situation": [
+      "宴会向き"
+    ],
+    "kids_friendly": true,
+    "created_date": "2026/06/09",
+    "updated_date": "2026/06/09"
   },
   {
     "id": 5,
@@ -52,7 +77,14 @@
     "price_range": "1000〜2000",
     "visited": false,
     "rating": null,
-    "notes": "江戸創業の老舗"
+    "notes": "江戸創業の老舗",
+    "situation": [
+      "接待・商談向き",
+      "デート向き"
+    ],
+    "kids_friendly": true,
+    "created_date": "2026/06/09",
+    "updated_date": "2026/06/09"
   },
   {
     "id": 6,
@@ -63,7 +95,13 @@
     "price_range": "2000〜5000",
     "visited": true,
     "rating": 5.0,
-    "notes": "本格的な窯焼きピザ"
+    "notes": "本格的な窯焼きピザ",
+    "situation": [
+      "デート向き"
+    ],
+    "kids_friendly": false,
+    "created_date": "2026/06/09",
+    "updated_date": "2026/06/09"
   },
   {
     "id": 7,
@@ -74,7 +112,13 @@
     "price_range": "〜1000",
     "visited": true,
     "rating": 3.0,
-    "notes": "安定のコスパ"
+    "notes": "安定のコスパ",
+    "situation": [
+      "一人で行きやすい"
+    ],
+    "kids_friendly": true,
+    "created_date": "2026/06/09",
+    "updated_date": "2026/06/09"
   },
   {
     "id": 8,
@@ -85,7 +129,13 @@
     "price_range": "1000〜2000",
     "visited": false,
     "rating": null,
-    "notes": "友人のおすすめ"
+    "notes": "友人のおすすめ",
+    "situation": [
+      "宴会向き"
+    ],
+    "kids_friendly": false,
+    "created_date": "2026/06/09",
+    "updated_date": "2026/06/09"
   },
   {
     "id": 9,
@@ -96,7 +146,13 @@
     "price_range": "1000〜2000",
     "visited": true,
     "rating": 4.5,
-    "notes": "札幌本店で絶品"
+    "notes": "札幌本店で絶品",
+    "situation": [
+      "一人で行きやすい"
+    ],
+    "kids_friendly": true,
+    "created_date": "2026/06/09",
+    "updated_date": "2026/06/09"
   },
   {
     "id": 10,
@@ -107,6 +163,48 @@
     "price_range": "〜1000",
     "visited": false,
     "rating": null,
-    "notes": "口コミで評判"
+    "notes": "口コミで評判",
+    "situation": [
+      "一人で行きやすい"
+    ],
+    "kids_friendly": false,
+    "created_date": "2026/06/09",
+    "updated_date": "2026/06/09"
+  },
+  {
+    "id": 11,
+    "name": "鼎泰豊 新宿高島屋店",
+    "genre": "中華",
+    "cuisine": "小籠包・台湾料理",
+    "address": "東京都渋谷区千駄ヶ谷5-24-2",
+    "price_range": "2000〜5000",
+    "visited": true,
+    "rating": 4.5,
+    "notes": "小籠包は絶品",
+    "situation": [
+      "デート向き",
+      "宴会向き"
+    ],
+    "kids_friendly": true,
+    "created_date": "2026/06/09",
+    "updated_date": "2026/06/09"
+  },
+  {
+    "id": 12,
+    "name": "ガパオ食堂 渋谷",
+    "genre": "エスニック",
+    "cuisine": "タイ料理",
+    "address": "東京都渋谷区渋谷1-14-14",
+    "price_range": "1000〜2000",
+    "visited": false,
+    "rating": null,
+    "notes": "本格タイ料理が食べたい",
+    "situation": [
+      "一人で行きやすい",
+      "デート向き"
+    ],
+    "kids_friendly": true,
+    "created_date": "2026/06/09",
+    "updated_date": "2026/06/09"
   }
 ]
