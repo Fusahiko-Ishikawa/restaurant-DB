@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "銀座 久兵衛",
+    "genre": "和食",
+    "cuisine": "寿司",
+    "address": "東京都中央区銀座6-7-6",
+    "price_range": "5000〜",
+    "visited": true,
+    "rating": 5,
+    "notes": "最高の職人技"
+  },
+  {
+    "id": 2,
+    "name": "一蘭 渋谷店",
+    "genre": "ラーメン",
+    "cuisine": "豚骨ラーメン",
+    "address": "東京都渋谷区道玄坂1-12-5",
+    "price_range": "〜1000",
+    "visited": true,
+    "rating": 4,
+    "notes": "こだわりのとんこつ"
+  },
+  {
+    "id": 3,
+    "name": "俺のフレンチ 銀座",
+    "genre": "フレンチ",
+    "cuisine": "フランス料理",
+    "address": "東京都中央区銀座7-3-13",
+    "price_range": "2000〜5000",
+    "visited": false,
+    "rating": null,
+    "notes": "スタンディングフレンチ"
+  },
+  {
+    "id": 4,
+    "name": "焼肉きんぐ 池袋店",
+    "genre": "焼肉",
+    "cuisine": "牛・豚・ホルモン",
+    "address": "東京都豊島区東池袋1-11-1",
+    "price_range": "2000〜5000",
+    "visited": true,
+    "rating": 3.5,
+    "notes": "食べ放題でコスパ良好"
+  },
+  {
+    "id": 5,
+    "name": "更科堀井",
+    "genre": "和食",
+    "cuisine": "蕎麦",
+    "address": "東京都港区元麻布3-11-4",
+    "price_range": "1000〜2000",
+    "visited": false,
+    "rating": null,
+    "notes": "江戸創業の老舗"
+  },
+  {
+    "id": 6,
+    "name": "ピッツェリア ダ・フォルノ",
+    "genre": "イタリアン",
+    "cuisine": "ナポリピザ",
+    "address": "東京都渋谷区代官山町8-10",
+    "price_range": "2000〜5000",
+    "visited": true,
+    "rating": 5,
+    "notes": "本格的な窯焼きピザ"
+  },
+  {
+    "id": 7,
+    "name": "吉野家 渋谷店",
+    "genre": "牛丼",
+    "cuisine": "牛丼・定食",
+    "address": "東京都渋谷区宇田川町21-1",
+    "price_range": "〜1000",
+    "visited": true,
+    "rating": 3,
+    "notes": "安定のコスパ"
+  },
+  {
+    "id": 8,
+    "name": "むさし坊",
+    "genre": "居酒屋",
+    "cuisine": "和食・創作料理",
+    "address": "東京都新宿区新宿3-14-5",
+    "price_range": "1000〜2000",
+    "visited": false,
+    "rating": null,
+    "notes": "友人のおすすめ"
+  },
+  {
+    "id": 9,
+    "name": "スープカレー SUAGE",
+    "genre": "カレー",
+    "cuisine": "スープカレー",
+    "address": "北海道札幌市中央区南3条西1-7",
+    "price_range": "1000〜2000",
+    "visited": true,
+    "rating": 4.5,
+    "notes": "札幌本店で絶品"
+  },
+  {
+    "id": 10,
+    "name": "つけ麺 道",
+    "genre": "ラーメン",
+    "cuisine": "つけ麺",
+    "address": "東京都渋谷区代々木2-19-1",
+    "price_range": "〜1000",
+    "visited": false,
+    "rating": null,
+    "notes": "口コミで評判"
+  }
+]
